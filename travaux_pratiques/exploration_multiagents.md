@@ -22,7 +22,7 @@ permalink: /travaux_pratiques/multiagent/
 
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/pacman_multi_agent.png" width="550" height="170"> 
+  <img src="{{ site.url }}{{ site.baseurl}}/assets/pacman_multi_agent.png" width="550" height="170"> 
   <div class="figcaption">
    Pacman est maintenant entouré des phantomes. Heureusement il vient
    d'ajouter MiniMax et ExpectiMax a son arsenal.
@@ -41,7 +41,7 @@ recommandé de commencer par copie fraiche du dossier fourni plutôt que de
 continuer sur l'ancien projet.
 
 
-> Le lien du dossier est le suivant : [multiagent.zip](https://github.com/intelligenceartificielensaf/intelligenceartificielensaf.github.io/blob/master/travaux_pratiques/multiagent.zip)
+> Le lien du dossier est le suivant : [multiagent.zip]({{ site.url }}{{ site.baseurl }}/travaux_pratiques/multiagent.zip)
 
 Comme dans le premier projet, vous disposez d'un *autograder* pour vérifier vos
 réponses. Ce dernier peut être invoqué pour vérifier toutes  les questions par:
